@@ -1,0 +1,306 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/linux-x64": {
+      "Formulaic/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.AspNetCoreServer.Hosting": "2.2.1",
+          "DotNetEnv": "3.2.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3"
+        },
+        "runtime": {
+          "Formulaic.dll": {}
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/3.0.1": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.ApplicationLoadBalancerEvents/3.0.0": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer/10.2.1": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "3.0.1",
+          "Amazon.Lambda.ApplicationLoadBalancerEvents": "3.0.0",
+          "Amazon.Lambda.Core": "3.3.0",
+          "Amazon.Lambda.Logging.AspNetCore": "5.0.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "3.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.AspNetCoreServer.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer.Hosting/2.2.1": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "3.0.1",
+          "Amazon.Lambda.AspNetCoreServer": "10.2.1",
+          "Amazon.Lambda.Core": "3.3.0",
+          "Amazon.Lambda.RuntimeSupport": "2.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/3.3.0": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Logging.AspNetCore/5.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Logging.AspNetCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.RuntimeSupport/2.2.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0",
+          "SnapshotRestore.Registry": "1.0.2"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.RuntimeSupport.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/3.0.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DotNetEnv/3.2.0": {
+        "dependencies": {
+          "Superpower": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetEnv.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Npgsql/10.0.3": {
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "Npgsql": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "SnapshotRestore.Registry/1.0.2": {
+        "runtime": {
+          "lib/net10.0/SnapshotRestore.Registry.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Superpower/3.0.0": {
+        "runtime": {
+          "lib/net5.0/Superpower.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Formulaic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.APIGatewayEvents/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+gTGEtrcoCBRtCgcqEl3AlFrYrQY4pFreL22KkmpvXaNX1Lwlrbgk/crEcfuD3Q0wO2AspsJ3xMMj7pJxDYTKA==",
+      "path": "amazon.lambda.apigatewayevents/3.0.1",
+      "hashPath": "amazon.lambda.apigatewayevents.3.0.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.ApplicationLoadBalancerEvents/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lUiZhNxherASNgbZysdFEj37VlyO7BH2z4iOwFpRtfLGq/v/dkVqt3rBAVvrxfPBRGi6SbSb/bHTV4bhPo5tSg==",
+      "path": "amazon.lambda.applicationloadbalancerevents/3.0.0",
+      "hashPath": "amazon.lambda.applicationloadbalancerevents.3.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer/10.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yql4ujM7Q2v6GfrBFbMB1SMaDu3wSHsfS/WfNr1OzUfVKseUKO+swo6Y/v1x/gQpJDKAzrP/pmwC/NuI9oPYjg==",
+      "path": "amazon.lambda.aspnetcoreserver/10.2.1",
+      "hashPath": "amazon.lambda.aspnetcoreserver.10.2.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer.Hosting/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MldjW5hJB9M9z8a3qi+Q/VeMRLhVPWv4qQ1lJZ3zPPRfu0MfpaWekfrtI8ox9olJmX8J+8PBH5ixGFLX5vnO8g==",
+      "path": "amazon.lambda.aspnetcoreserver.hosting/2.2.1",
+      "hashPath": "amazon.lambda.aspnetcoreserver.hosting.2.2.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZKlX8ZDMi6aKPo5lPAjmsJFDXNJHX00aiiYeRQOEszP8cjx6qklBvTPj4qpr4dlp3YYQjmB87CqAiWV7vk2fA==",
+      "path": "amazon.lambda.core/3.3.0",
+      "hashPath": "amazon.lambda.core.3.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Logging.AspNetCore/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vfqHBHPvsIvaAGeBnFSRSCThHoqXWqy7S/R6/Aldn4/FmHEp872D0WcJgFac/D0h0GnbHqyfFkjmBEpi85vOog==",
+      "path": "amazon.lambda.logging.aspnetcore/5.0.0",
+      "hashPath": "amazon.lambda.logging.aspnetcore.5.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.RuntimeSupport/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S2ey3Wwb1JBJzYOa1jHDfbATziS7BVDRd9ZzBBTIRf8+2KsAujlEUwbCAZ5WpfGl0poiTVdvD4S9ttrCX3fmdg==",
+      "path": "amazon.lambda.runtimesupport/2.2.0",
+      "hashPath": "amazon.lambda.runtimesupport.2.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QsHygaMyxQdgh5NPs5GGyBjK6mqQr5nv8rpqlrWC5+e1k7sVx+2xwDHv493S5IMw461S/PyHfjkUDjIQU5ArSA==",
+      "path": "amazon.lambda.serialization.systemtextjson/3.0.1",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.3.0.1.nupkg.sha512"
+    },
+    "DotNetEnv/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2q+PD+aJcRW9QuRcIv4F8WbvEDxI6cwxzZJec2i45cBY4cAKCAoW4ZPkApJ7H82wr6Yfmxx/0kb1nLnRmZrGZA==",
+      "path": "dotnetenv/3.2.0",
+      "hashPath": "dotnetenv.3.2.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kzTsfFK2GCytp6DDTfQOmxPU4gbGdrIlP7PxrxF3ESNLtfXrC8BoUVZENBN2WORlZPAD7CVX6AYIglgkpXQooA==",
+      "path": "microsoft.entityframeworkcore/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qDcJqCfN1XYyX0ID/Hd9/kQTRvlia8S+Yuwyl9uFhBIKnOCbl9WMdGQCzbZUKbkpkfvf3P9CDdXsnxHyE3O0Aw==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOTjTHy93W3TwpMLM4SCm0n57Sc0Jj3+m2S6LSTstKyBB34eT1UouaMS19mpWwvtj42+sRiEjA3+rOTNoNzXFQ==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512"
+    },
+    "Npgsql/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "path": "npgsql/10.0.3",
+      "hashPath": "npgsql.10.0.3.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+    },
+    "SnapshotRestore.Registry/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-clcAZGAb8sbtIuynOPiZkpHLdSb3RGxHJjSPyecgRh55fFY0KynqA7GEtrVL/sAUgO9jvC0IMhPXBRcJuFWrAA==",
+      "path": "snapshotrestore.registry/1.0.2",
+      "hashPath": "snapshotrestore.registry.1.0.2.nupkg.sha512"
+    },
+    "Superpower/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bjKbAYWePooCAvPxQq+3KnmcLfRggMyRoXmtBMlmCG71bdwBHrO6rmRJ2DRIodg5aztNcxeZXBUVWT+H+MZUhw==",
+      "path": "superpower/3.0.0",
+      "hashPath": "superpower.3.0.0.nupkg.sha512"
+    }
+  }
+}
