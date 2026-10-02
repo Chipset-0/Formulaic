@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Formulaic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44b64eab96f0c2c7fefa6f5a4f082dec8ead392")]
 [assembly: System.Reflection.AssemblyProductAttribute("Formulaic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Formulaic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

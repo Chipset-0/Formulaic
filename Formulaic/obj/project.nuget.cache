@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YffFCLG8ej4=",
+  "dgSpecHash": "996LMviZQ3o=",
   "success": true,
   "projectFilePath": "/home/zac/RiderProjects/Formulaic/Formulaic/Formulaic.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,7 @@
     "/home/zac/.nuget/packages/npgsql/10.0.3/npgsql.10.0.3.nupkg.sha512",
     "/home/zac/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.3/npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
     "/home/zac/.nuget/packages/snapshotrestore.registry/1.0.2/snapshotrestore.registry.1.0.2.nupkg.sha512",
-    "/home/zac/.nuget/packages/superpower/3.0.0/superpower.3.0.0.nupkg.sha512",
-    "/home/zac/.nuget/packages/microsoft.netcore.app.host.linux-x64/10.0.11/microsoft.netcore.app.host.linux-x64.10.0.11.nupkg.sha512"
+    "/home/zac/.nuget/packages/superpower/3.0.0/superpower.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }
