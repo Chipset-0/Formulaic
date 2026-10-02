@@ -7,6 +7,8 @@ if (builder.Environment.IsDevelopment())
 {
     DotNetEnv.Env.Load();
 }
+
+//Remove escaped ! characters from connection string
 var connString = builder.Configuration["DB_CONNECTION_STRING"].Replace("\\!","!");
 
 
